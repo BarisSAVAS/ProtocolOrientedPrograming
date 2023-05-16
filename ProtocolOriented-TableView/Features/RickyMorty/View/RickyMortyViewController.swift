@@ -63,10 +63,7 @@ extension RickyMortyViewController: UITableViewDelegate , UITableViewDataSource 
         cell.saveModel(model: results[indexPath.row])
         return cell
     }
-    
-    
 }
-                                
 extension RickyMortyViewController {
     private func makeLabelTitle(){
         labelTitle.snp.makeConstraints { make in
